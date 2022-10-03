@@ -1,0 +1,42 @@
+:root {
+    --bg-color: #F5F5F5;
+    --main-color: #3347B0;
+    --details-color: #BCC2E5;
+    --statusF-color: #E5B657;
+    --statusC-color: #3347B0;
+    --aprov: #3347B0;
+    --exame: #E5B657;
+    --reprov: #C11010;
+    --status-bar: #BCC2E5;
+    --text-color: #FFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+ul, ol{
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+        height: auto;
+    }
+}

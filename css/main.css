@@ -1,0 +1,145 @@
+main {
+    flex-grow: 2;
+    flex-wrap: wrap;
+    display: flex;
+    padding-left: 10%;
+    padding-top: 8%;
+    padding-right: 10%;
+    padding-bottom: 8%;
+    justify-content: center;
+    background-color: var(--bg-color);
+}
+
+.home {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+
+.message-text {
+    display: flex;
+    gap: 15px;
+    color: black;
+    font-weight: lighter;
+    font-size: 6rem;
+}
+
+.detail {
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vetor-devices {
+    width: 20vw;
+}
+
+.img-studant {
+    /* width: 30vw; */
+    display: flex;
+    align-items: center;
+    /* padding-left: 30px; */
+}
+
+.vetor-studant {
+    height: 45vh;
+}
+
+.card-container {
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 30rem;
+    height: 15rem;
+    color: var(--text-color);
+    border-radius: 10px;
+    border: none;
+    transition: .5s;
+}
+
+.card-container:hover {
+    box-shadow: 12px 12px 4px rgba(51, 71, 176, 0.5);
+    width: 30.5rem;
+    transition: .5s;
+}
+
+.sigla {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.card-cursos {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 30.5rem;
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 100%;
+        padding: 10%;
+    }
+    
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        gap: 50px;
+    }
+    
+    .message-text {
+        font-size: 2.5rem;
+        gap: 10px;
+    }
+
+    .message-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-container {
+        padding-top: 20px;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .vetor-devices {
+        width: 55vw;
+    }
+
+    .img-studant {
+        display: none;
+    }
+
+    .card-container {
+        width: 80vw;
+        height: 120px;
+    }
+
+    .sigla {
+        font-size: 3rem;
+    }
+
+    .vetor-curso {
+        width: 20%;
+    }
+
+    .card-cursos {
+        width: 100vw;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+}
