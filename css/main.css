@@ -129,6 +129,12 @@ main {
         height: 120px;
     }
 
+    .card-container:hover {
+        box-shadow: none;
+        width: 80vw;
+        transition: .5s;
+    }
+
     .sigla {
         font-size: 3rem;
     }
