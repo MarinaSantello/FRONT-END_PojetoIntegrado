@@ -17,7 +17,7 @@ const showCursos = async(array) => {
         //cardContainer.addEventListener('click', changeScreen)
 
         // cardContainer.href = `studantPage.html?curso=${cursos[i].sigla}`
-        cardContainer.href = `./FRONT-END/pages/studantPage.html?curso=${cursos[i].sigla}`
+        cardContainer.href = `./pages/studantPage.html?curso=${cursos[i].sigla}`
 
         let icon = document.createElement('img')
         icon.classList.add('vetor-curso')
